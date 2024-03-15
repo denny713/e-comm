@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: e-comm
+  datasource:
+    url:
+    username: postgres
+    password: p@ssw0rd
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+server:
+  servlet:
+    context-path: /api
+  port: 9090
