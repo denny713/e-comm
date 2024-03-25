@@ -2,7 +2,7 @@ spring:
   application:
     name: e-comm
   datasource:
-    url:
+    url: jdbc:postgresql://localhost:5432/ecomm
     username: postgres
     password: p@ssw0rd
   jpa:

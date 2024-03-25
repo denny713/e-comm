@@ -1,0 +1,29 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-product-table
+      author: denny.afrizal713@gmail.com
+      changes:
+        - createTable:
+            tableName: product
+            columns:
+              - column:
+                  name: id
+                  type: NUMERIC
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: price
+                  type: NUMERIC
+                  constraints:
+                    nullable: false
+              - column:
+                  name: quantity
+                  type: NUMERIC
+                  constraints:
+                    nullable: false

@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: changelog/create-product-table.yml
+      relativeToChangelogFile: true
